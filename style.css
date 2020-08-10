@@ -1,0 +1,110 @@
+#navBarSearchForm input[type=search]{
+  width: 500px !important;
+  
+}
+#navBarSearchForm{
+    margin-right: 50px;
+}
+.navbar a{
+  margin-left: 100px !important;
+  
+}
+#cartBtn{
+  margin-right: 60px;
+}
+#btnLogin{
+  margin-left: 50px;
+}
+.listProducts{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  max-width: 100%;
+  background: #202033;
+}
+.listProducts ul{
+  list-style: none;
+  display: flex;
+}
+.listProducts ul li{
+  /* border: 1px solid black; */
+  padding: 10px 50px 10px 20px;
+  margin-bottom: 0px;
+  font-weight: bolder;
+  
+}
+.listProducts ul li a{
+  color: white;
+  text-decoration: none;
+}
+.listProducts ul li:hover{
+  border: 1px solid white;
+  cursor: pointer;
+  transition: 0.8s;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px){
+
+
+
+
+
+
+nav{
+  width: fit-content;
+  background:#16161d !important;
+}
+  #navBarSearchForm input[type=search]{
+    width: 200px !important;
+    
+  }
+    .navbar-toggler{
+    margin-left: 270px; 
+}
+#cartBtn{
+  margin-left: 280px !important;
+ margin-top: 10px;
+}
+#btnLogin{
+  margin-left: 270px !important;
+  position: absolute;
+  bottom: 85px;
+}
+.listProducts{
+  position: absolute;
+  right: 0px;
+  
+  display: flex;
+  max-width: 110%;
+  background: #202033;
+  
+ 
+}
+.listProducts ul li{
+  
+  
+  
+  padding: 0px 10px 0px 10px;
+  font-size: 8px;
+  font-weight: bolder;
+  background: #202033;
+  
+  
+  
+}
+.listProducts ul li a{
+  color: white;
+}
+
+
+}
